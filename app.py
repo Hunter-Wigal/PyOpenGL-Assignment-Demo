@@ -306,11 +306,11 @@ class MainWindow:
 
         # Unfinished feature
         self.lightList: List[Light] = []
-        self.light1 = Light([0, 0, 0], [1, 1, 1], 1, -1)
-        self.light2 = Light([0, 0, 30], [1, 1, 1], 1, -1)
+        self.light = Light([0, 0, 0], [1, 1, 1], 1, 1)
+        # self.light2 = Light([0, 0, 30], [1, 1, 1], 1, -1)
 
-        self.lightList.append(self.light1)
-        self.lightList.append(self.light2)
+        self.lightList.append(self.light)
+        # self.lightList.append(self.light2)
 
         # Used in animating the character waving
         waving = False
